@@ -18,4 +18,4 @@ from functools import wraps
 
 To start the application just simply go to [app.py] and run it. If you have visual studio code installed just use the [F5] button on your keyboard.
 
-This mini project was made during my time at [BONEVET]
+This mini project was made during my time at [BONEVET](https://www.bonevet.org/)
