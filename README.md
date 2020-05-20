@@ -4,7 +4,7 @@ This is a small blogging page that lets you to write articles with your friends 
 
 # Requirements
 
-For this application to work you must install these packages by using the [pip] (https://pip.pypa.io/en/stable/) package installer
+For this application to work you must install these packages by using the [pip](https://pip.pypa.io/en/stable/) package installer
 
 ```bash
 from flask import Flask, render_template, flash, redirect, url_for, session, request, logging
