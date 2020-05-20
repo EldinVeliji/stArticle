@@ -1,0 +1,9 @@
+Flask==1.0.2
+Flask-Compress==1.4.0
+Flask-SQLAlchemy==2.3.2
+Jinja2==2.10
+numpy==1.15.4
+pandas==0.22.0
+requests==2.20.1
+SQLAlchemy==1.2.14
+urllib3==1.24.1
