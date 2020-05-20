@@ -1,0 +1,119 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<h1>Welcome To stArticle</h1>
+<p class="lead">Welcome to the small bllog page for COVID-19. To write an article please login/register</p>
+{% if session.logged_in == NULL %}
+<a href="/register" class="btn btn-default btn-lg text-center">Register</a>
+<a href="/login" class="btn btn-success btn-lg text-center">Login</a>
+{% endif %}
+<br>
+<br>
+<hr>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Project One -->
+  <div class="row">
+    <div class="col-md-7">
+      <a href="#">
+        <img class="img-fluid rounded mb-3 mb-md-0"
+          src="{{url_for('static', filename='Propose-staging-of-COVID19.-Siddiqi-et-al-2020png.png')}}" />
+      </a>
+    </div>
+    <div class="col-md-8">
+      <h3>Neurologic Features in Severe SARS-CoV-2 Infection</h3>
+      <p>We report the neurologic features in an observational series of 58 of 64 consecutive patients admitted to the
+        hospital because of acute respiratory distress syndrome (ARDS) due to Covid-19. The patients received similar
+        evaluations by intensivists in two intensive care units (ICUs) in Strasbourg, France, between March 3 and April
+        3, 2020.
+      </p>
+      <a class="btn btn-default" href="https://www.nejm.org/doi/full/10.1056/NEJMc2008597?query=featured_coronavirus"
+        target="_blank">Read More</a>
+      <a class="btn btn-default" href="/articles">Write an article about this topic</a>
+    </div>
+  </div>
+  <!-- /.row -->
+  <hr>
+  <!-- Project Two -->
+  <div class="row">
+    <div class="col-md-7">
+      <a href="#">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url_for('static', filename='ciminelli22aprilfig1.png')}}" />
+      </a>
+    </div>
+    <div class="col-md-6">
+      <h3>Out-of-Hospital Cardiac Arrest during the Covid-19 Outbreak in Italy</h3>
+      <p>Despite the risk of rapid respiratory failure1 and cardiac complications2 due to Covid-19, it is unclear
+        whether there is an association between Covid-19 and out-of-hospital cardiac arrest. The Lombardy region of
+        Italy was among the first areas to have an outbreak of Covid-19 outside China,3 and the first case there was
+        diagnosed on February 20, 2020, in Lodi Province.4</p>
+      <a class="btn btn-default" href="https://www.nejm.org/doi/full/10.1056/NEJMc2010418" target="_blank">Read more</a>
+      <a class="btn btn-default" href="/articles">Write an article about this topic</a>
+    </div>
+  </div>
+  <!-- /.row -->
+  <hr>
+  <!-- Project Three -->
+  <div class="row">
+    <div class="col-md-8">
+      <a href="#">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url_for('static', filename='thumb-xhdpi.jpg')}}" alt="">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <h3>Suppressing the Epidemic in New South Wales</h3>
+      <p>Facing the coronavirus pandemic, Australia has achieved national consensus on policies that were unprecedented
+        for the past century. New South Wales (which has 8 million residents) and other jurisdictions appear to have
+        successfully suppressed Covid-19 transmission after a rapid escalation of cases in March 2020.</p>
+      <a class="btn btn-default" href="https://www.nejm.org/doi/full/10.1056/NEJMc2011592?query=featured_coronavirus"
+        target="_blank">Read more</a>
+      <a class="btn btn-default" href="/articles">Write an article about this topic</a>
+    </div>
+  </div>
+  <!-- /.row -->
+  <hr>
+  <!-- Project Four -->
+  <div class="row">
+
+    <div class="col-md-8">
+      <a href="#">
+        <img class="img-fluid rounded mb-3 mb-md-0"
+          src="{{url_for('static', filename='COVID-19_Cases_in_Iceland_per_capita.svg')}}" alt="">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <h3>Spread of SARS-CoV-2 in the Icelandic Population</h3>
+      <p>During the current worldwide pandemic, coronavirus disease 2019 (Covid-19) was first diagnosed in Iceland at
+        the end of February. However, data are limited on how SARS-CoV-2, the virus that causes Covid-19, enters and
+        spreads in a population.
+      </p>
+      <a class="btn btn-default" href="https://www.nejm.org/doi/full/10.1056/NEJMoa2006100" target="_blank">Read
+        more</a>
+      <a class="btn btn-default" href="/articles">Write an article about this topic</a>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <!-- Pagination -->
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">1</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">2</a>
+    </li>
+  </ul>
+</div>
+<!-- /.container -->
+</div>
+{% endblock %}
