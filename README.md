@@ -1,6 +1,9 @@
 # stArticle
+This mini project was made for assignment in [BONEVET](https://www.bonevet.org/), class of python 2020
 
-This is a small blogging page that lets you to write articles with your friends or whoever you want
+#About the page
+
+This is a small blogging page that lets you to write articles with your friends or whoever you want, it has a registration form because you need one for creating articles. It also has an active COVID-19 tracker so you will always be up to date
 
 # Requirements
 
@@ -18,4 +21,4 @@ from functools import wraps
 
 To start the application just simply go to [app.py] and run it. If you have visual studio code installed just use the [F5] button on your keyboard.
 
-This mini project was made during my time at [BONEVET](https://www.bonevet.org/)
+
