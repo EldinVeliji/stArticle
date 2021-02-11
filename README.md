@@ -22,4 +22,4 @@ from functools import wraps
 To start the application just simply go to [app.py] and run it. If you have visual studio code installed just use the [F5] button on your keyboard.
 
 
-![executing the code](https://gph.is/g/E0Qq9r5)
+![executing the code](https://media.giphy.com/media/KwD18xyltUsllcs3mP/giphy.gif)
