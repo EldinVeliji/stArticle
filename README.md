@@ -20,8 +20,3 @@ from functools import wraps
 # stArting the application
 
 To start the application just simply go to [app.py] and run it. If you have visual studio code installed just use the [F5] button on your keyboard.
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
